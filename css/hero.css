@@ -1,0 +1,24 @@
+.hero__wrapper {
+   position: relative;
+}
+.hero {
+    padding: 35rem 0 10rem;
+    position: relative;
+}
+.title {
+    position: relative;
+}
+.title::before {
+    position: absolute;
+    display: block;
+    content: '';
+    left: 50%;
+    top: -2rem;
+    width: 15rem;
+    height: 0.2rem;
+    background-color: var(--sub-bg-color);
+    transform: translate(-50%, 0);
+}
+@media screen and (min-width: 1024px)  {
+
+}
